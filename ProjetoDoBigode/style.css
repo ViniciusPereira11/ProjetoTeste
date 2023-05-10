@@ -1,0 +1,23 @@
+body{
+    background-color: lightseagreen;
+}
+.heading{
+    font-size: 30px;
+}
+
+canvas{
+    border: darkgrey 2px dashed;
+    animation-name: magica;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes magica{
+    0%{
+        box-shadow: 1px 1px 32px lightgreen;
+    
+    }
+    100%{
+        box-shadow: 1px 1px 32px lightblue;
+    }
+}
